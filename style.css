@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;;
+    scroll-behavior: smooth;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-header {
+    
+    margin-bottom: 30px;
+}
+.section-header h2 {
+    color: #301913;
+    font-family: 'alfa slab one';
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.section-header p{
+    color: #262626;
+    
+}
+
+.navbar-brand {
+    font-weight: 900;
+}
+
+.navbar-brand span {
+    color: red;
+    font-size: 25px;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.navbar-scrolled{
+    background-color: #fff !important;
+}
+
+header {
+    background-image: url("img/home-1.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+}
+.text-content{
+    padding: 41% 0;
+}
+.text-content h2 {
+    font-family: 'alfa slab one';
+    font-size: 100px;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.text-content h4 {
+    font-family: 'kings';
+    font-size: 35px;
+    margin: 0;
+}
+ 
+/* about */
+.about-content img{
+    width: 100%;
+}
+.about-content h2{
+    font-size: 35px;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+/* area -1 */
+
+.area-1{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/area-1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* menu */
+
+.img-area img {
+    width: 100%;
+}
+
+/* area -2 */
+
+.area-2{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/area-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* footer */
+
+footer {
+    background-image: linear-gradient(to right, rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/footer.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+footer h2 {
+    font-weight: 900;
+
+}
+footer h2 span{
+    color: red;
+    font-size: 45px;
+}
+
+.socials{
+    margin-top: 52px;
+
+}
+
+.socials i{
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+@media (max-width: 991px){
+    nav {
+        background: #fff;
+    }
+    .text-content{
+        padding: 65% 0;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    header {
+        background-image: url("img/home-1.jpg");
+        height: 100vh;
+        background-position:center;
+        background-size:cover;
+    }
+}
+
+@media (max-width:767px){
+    .text-content h4{
+        font-size: 18px;
+    }
+    .text-content h2{
+        font-size: 40px;
+    }
+    .text-content{
+        padding: 70% 0;
+    }
+    .section-header h2 {
+        font-size: 30px;
+    }
+    .about-content h2 {
+        font-size: 18px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+   
+}
